@@ -24,7 +24,7 @@ php artisan migrate
 3. Frontend:
 ```bash
 npm install
-npm run build   # atau: npm run dev untuk dev
+npm run build   # atau: npm run dev untuk development
 ```
 4. Jalankan:
 ```bash
@@ -61,5 +61,13 @@ User::create([
 - `/dashboard` — dashboard admin
 - `/admin/foods` — kelola makanan
 
-## Lisensi 📜
-Project ini bersifat open-source dan dilisensikan di bawah [MIT license](https://opensource.org/licenses/MIT).
+## Teknologi yang Digunakan 🛠️
+- PHP 8.3  
+- Laravel 13  
+- Composer  
+- NPM / Node.js  
+- Tailwind CSS  
+- Vite  
+- MySQL atau SQLite (melalui migrations)
+
+[@okRenn](https://github.com/okRennn)
