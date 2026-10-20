@@ -53,7 +53,7 @@
                                                 <li>
                                                     <strong>{{ $detail->food->name ?? 'Menu' }}</strong> 
                                                     x{{ $detail->quantity }} 
-                                                    <span class="text-xs text-gray-400">(Rp {{ number_format($detail->subtotal) }})</span>
+                                                    <span class="text-xs text-gray-400">(Rp {{ number_format($detail->price) }})</span>
                                                 </li>
                                             @endforeach
                                         </ul>
